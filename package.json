@@ -1,0 +1,29 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@suid/vite-plugin": "^0.1.4",
+    "solid-devtools": "^0.27.7",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "@iconify-json/logos": "^1.1.35",
+    "@iconify-json/twemoji": "^1.1.12",
+    "@solidjs/router": "^0.8.3",
+    "@suid/icons-material": "^0.6.9",
+    "@suid/material": "^0.14.2",
+    "fastdom": "^1.0.11",
+    "solid-js": "^1.7.11",
+    "unocss": "^0.55.7"
+  }
+}
