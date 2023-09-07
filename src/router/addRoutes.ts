@@ -38,12 +38,11 @@ const handleIndex = (
   component: Component,
   userRouteConfig: UserRouteConfig
 ) => {
-  if (pathName === userRouteConfig.index) {
+  if (pathName === userRouteConfig.index || pathName === '') {
     routes.push({
       path: '/',
       component,
     });
-    // addRoute(routes, '/', component);
   }
 };
 

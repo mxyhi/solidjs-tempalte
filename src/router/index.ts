@@ -18,6 +18,5 @@ Object.keys(modules).forEach(path => {
   }>;
   addRoute(routes, targetPath, lazy(importMod));
 });
-console.log(routes);
 
 export const UserRouter = useRoutes(routes);
