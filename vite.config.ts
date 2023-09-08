@@ -30,6 +30,7 @@ export default defineConfig({
             display: 'inline-block',
             'vertical-align': 'middle',
           },
+          autoInstall: true,
         }),
       ],
     }),
